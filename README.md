@@ -31,4 +31,12 @@ Este script de Python permite automatizar consultas al sistema del **Padrón de 
 ```bash
 sudo apt update && sudo apt install python3-pip python3-requests -y
 ```
-### 2. Ejecutar
+### 2. FINAL
+
+> [!IMPORTANT]
+> En la terminal tenes que ir al patch donde este el `buscador_arg.py` con `cd (DIRECTORIO)`
+> Ejecuta : `python3 buscador_arg.py`
+
+
+
+
