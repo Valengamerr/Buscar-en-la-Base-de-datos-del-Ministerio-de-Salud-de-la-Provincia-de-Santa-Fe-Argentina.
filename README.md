@@ -17,3 +17,23 @@ Este script de Python permite automatizar consultas al sistema del **Padrón de 
 3. **Instalá la librería necesaria:** Copiá y pegá este comando en la terminal:
    ```bash
    pip install requests
+
+En Linux (Ubuntu / Debian / Mint)
+[!TIP] En Linux, Python ya suele venir instalado, pero es necesario instalar el gestor de paquetes y la librería de forma manual para que el script funcione.
+
+Abrí una Terminal: Podés usar el atajo Ctrl + Alt + T.
+
+Instalá los requerimientos: Copiá y pegá el siguiente comando:
+
+Bash
+sudo apt update && sudo apt install python3-pip python3-requests -y
+Ubicá el archivo: Entrá a la carpeta donde descargaste el script.
+
+Ejemplo: cd ~/Descargas
+
+Ejecutá el script:
+
+Bash
+python3 buscador_arg.py
+🛠️ Configuración de Datos (IMPORTANTE)
+[!WARNING] ¡Atención! El código NO funcionará si no editás los datos de búsqueda. Abrí el archivo buscador_arg.py con un editor de texto y completá estos campos en la sección payload:
