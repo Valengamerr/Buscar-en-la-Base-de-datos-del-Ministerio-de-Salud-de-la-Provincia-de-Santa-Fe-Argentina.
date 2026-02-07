@@ -34,3 +34,5 @@ Abrí una terminal (`Ctrl + Alt + T`) y ejecutá el siguiente comando para insta
 
 ```bash
 sudo apt update && sudo apt install python3-pip python3-requests -y
+
+### 2
