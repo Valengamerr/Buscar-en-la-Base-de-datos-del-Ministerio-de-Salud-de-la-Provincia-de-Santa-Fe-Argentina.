@@ -1,12 +1,11 @@
-# 🔍 Buscador Padrón de Salud - Santa Fe
+# 🔍 Buscador de base de datos (arg)
 
-Este script de Python permite automatizar consultas al sistema del **Padrón de Salud de la Provincia de Santa Fe**. Está diseñado para imitar una petición de navegador y extraer información sobre coberturas médicas de forma rápida.
 
 ---
 
 ## 🚀 Guía de Instalación y Uso
 
-### 🪟 En Windows
+### En Windows
 
 > [!IMPORTANT]
 > **Paso 1: Instalación de Python**
@@ -20,7 +19,7 @@ Este script de Python permite automatizar consultas al sistema del **Padrón de 
 > [!WARNING]
 > Cambiar los ejemplos por datos reales
  
-# 🔍 Buscador Padrón de Salud - Santa Fe (Linux Version)
+# 🔍 Buscador Padrón de Salud - Santa Fe (Linux)
 
 Este script de Python permite automatizar consultas al sistema del **Padrón de Salud de la Provincia de Santa Fe**. Está optimizado para funcionar en distribuciones basadas en Debian/Ubuntu.
 
@@ -36,7 +35,7 @@ sudo apt update && sudo apt install python3-pip python3-requests -y
 ### 2. FINAL
 
 > [!IMPORTANT]
-> En la terminal tenes que ir al patch donde este el `buscador_arg.py` con `cd (DIRECTORIO)`
+> En la terminal tenes que ir al directorio donde esta el `buscador_arg.py` con `cd /ruta/de/tu/carpeta`
 > Ejecuta : `python3 buscador_arg.py`
 
 
