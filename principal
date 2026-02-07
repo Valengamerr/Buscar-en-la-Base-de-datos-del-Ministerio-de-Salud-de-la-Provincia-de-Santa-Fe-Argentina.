@@ -1,1 +1,8 @@
-ffff
+🪟 Para usuarios de Windows
+[!IMPORTANT] Paso 1: Instalación de Python Anda a la Microsoft Store y busca "Python 3.12" (o la versión más reciente). Dale a "Instalar". Esto configurará todo automáticamente sin que tengas que tocar nada raro.
+
+Descarga el código: Guarda el archivo como buscador_arg.py.
+
+Abre la Terminal: Presiona la tecla Win, escribe cmd y dale Enter.
+
+Instala la librería necesaria: Copia y pega este comando y presiona Enter:
