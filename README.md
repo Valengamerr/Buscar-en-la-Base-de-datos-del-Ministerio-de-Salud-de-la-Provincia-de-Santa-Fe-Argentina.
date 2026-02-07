@@ -26,13 +26,9 @@ Este script de Python permite automatizar consultas al sistema del **Padrón de 
 
 ## 🚀 Guía de Instalación y Uso en Linux
 
-> [!TIP]
-> En Linux, es fundamental usar el gestor de paquetes `apt` para instalar las librerías de Python. Esto evita conflictos con el sistema operativo y asegura que el script funcione correctamente.
-
-### 1. Preparar el Sistema
-Abrí una terminal (`Ctrl + Alt + T`) y ejecutá el siguiente comando para instalar Python, el gestor de paquetes y la librería necesaria:
-
+> [!IMPORTANT]
+> Abrí una terminal (`Ctrl + Alt + T`) y ejecutá el siguiente comando para instalar Python, el gestor de paquetes y la librería necesaria:
 ```bash
 sudo apt update && sudo apt install python3-pip python3-requests -y
-
-### 2
+```
+### 2. Ejecutar
