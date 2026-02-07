@@ -18,22 +18,19 @@ Este script de Python permite automatizar consultas al sistema del **Padrón de 
    ```bash
    pip install requests
 
-En Linux (Ubuntu / Debian / Mint)
-[!TIP] En Linux, Python ya suele venir instalado, pero es necesario instalar el gestor de paquetes y la librería de forma manual para que el script funcione.
+# 🔍 Buscador Padrón de Salud - Santa Fe (Linux Version)
 
-Abrí una Terminal: Podés usar el atajo Ctrl + Alt + T.
+Este script de Python permite automatizar consultas al sistema del **Padrón de Salud de la Provincia de Santa Fe**. Está optimizado para funcionar en distribuciones basadas en Debian/Ubuntu.
 
-Instalá los requerimientos: Copiá y pegá el siguiente comando:
+---
 
-Bash
+## 🚀 Guía de Instalación y Uso en Linux
+
+> [!TIP]
+> En Linux, es fundamental usar el gestor de paquetes `apt` para instalar las librerías de Python. Esto evita conflictos con el sistema operativo y asegura que el script funcione correctamente.
+
+### 1. Preparar el Sistema
+Abrí una terminal (`Ctrl + Alt + T`) y ejecutá el siguiente comando para instalar Python, el gestor de paquetes y la librería necesaria:
+
+```bash
 sudo apt update && sudo apt install python3-pip python3-requests -y
-Ubicá el archivo: Entrá a la carpeta donde descargaste el script.
-
-Ejemplo: cd ~/Descargas
-
-Ejecutá el script:
-
-Bash
-python3 buscador_arg.py
-🛠️ Configuración de Datos (IMPORTANTE)
-[!WARNING] ¡Atención! El código NO funcionará si no editás los datos de búsqueda. Abrí el archivo buscador_arg.py con un editor de texto y completá estos campos en la sección payload:
